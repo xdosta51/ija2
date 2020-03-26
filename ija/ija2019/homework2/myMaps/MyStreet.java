@@ -8,6 +8,8 @@ import java.util.List;
 import java.util.ArrayList;
 
 public class MyStreet implements Street {
+
+
     private String getIde = null;
     private Coordinate c1 = null;
     private Coordinate c2 = null;

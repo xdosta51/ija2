@@ -8,7 +8,7 @@ public class MyStop implements Stop {
     private String getIde;
     private Coordinate c1;
     private Street s1;
-
+    int count = 0;
     public MyStop(String getIde,  Coordinate c1) {
         this.getIde = getIde;
         this.c1 = c1;
@@ -57,6 +57,9 @@ public class MyStop implements Stop {
             return null;
     }
 
-
+    public String toString() {
+        String pes = "stop" + "(" + this.getIde + ")";
+        return pes;
+    }
      
 }
